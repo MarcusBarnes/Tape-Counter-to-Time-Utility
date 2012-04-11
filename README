@@ -1,0 +1,30 @@
+ABOUT:  Using a mathematical model of cassette tape counters published by Arnold J. Insel ("Cassette Tape: Predicting Recording Time," The UMAP Journal, Vol. V, No. 2, 1984, pp. 200–214), this utility allows you to determine the approximate time for a given cassette counter number.  
+
+To get it to work, you will need to supply two readings from the tape and tape counter.  You can do this by popping the tape into a cassette player with a counter and then noting the elapsed time (in minutes) and the counter number (all starting from 0 on the tape and 000 on the tape counter).  
+
+An example from Insel's paper, we have two data points for a cassette and player he owned:
+
+1. The counter reads 60 at 2 minutes
+
+2. The counter reads 369 at 15 minutes
+
+If you put these into the calculator above
+
+(n1,T1) = (60, 2)
+(n2, T2) = (369, 15)
+
+...and wonder how much time will have elapsed when the counter reads 556, you will ll get an answer of T = 25 minutes.  This is the time one finds from the Insel's empirical table of data.
+
+AUTHORS: Marcus Emmanuel Barnes http://www.marcusebarnes.com
+
+THANKS: 
+
+This project was initiated by Marcus Emmanuel Barnes (http://www.marcusebarnes.com) while working for the library systems group at Simon Fraser University (http://www.lib.sfu.ca/).  Their support and encouragement is kindly acknowledged.
+
+USE DISCLAIMER:
+
+This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
+COPYING / LICENSE:
+
+In order to preserve the ability of derivative works to be hosted on sites such as Drupal.org, this software is licensed under the GNU GENERAL PUBLIC LICENSE, Version 2.  Please see the accompanying LICENCE.txt for more details.  Should your project require a different version, please contact the original author of this software.
